@@ -39,8 +39,9 @@ colors:
       margin: 30px;
       border: 2px solid #ffd24a;
       border-radius: 3px;
-      padding: 5px;
+      padding: 10px;
       font-family: Helvetica, Arial, sans-serif;
+      font-weight: 300;
         }
 
   #page_content {
@@ -56,7 +57,7 @@ colors:
     border: 1px solid;
     border-color: black;
     color: white;
-  
+
 
   }
 
@@ -74,4 +75,34 @@ colors:
 
   section {
     border-bottom: 5px solid #dddddd;
+    padding-bottom: 30px;
+  }
+
+  .name {
+    background-color: #ff8523;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 10px;
+  }
+  #first_name, #last_name {
+    height: 40px;
+    width: 240px;
+  }
+
+  .city_container {
+   margin-top: 30px; 
+   padding-bottom: 30px ;
+
+
+  }
+
+
+  section > form > div > label, li{
+
+    font-weight: bold;
+  }
+
+  #bio {
+    border-color: #1fabe5;
   }
