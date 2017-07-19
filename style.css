@@ -12,17 +12,24 @@ colors:
     blue - #1fabe5
     dark blue - #046c97
 */
-  #site_header  {
+  #site_header{
                 background-color: #ff8523;
-                Padding: 20px;
+                Padding: 30px;
 
 }
 
+  #logo {
+    size: inherit;
+  }
+
 .main_navigation > a {
                   color: white;
-                  text-decoration; none;
                   border: 1px solid white;
                   padding: 5px;
+                  text-decoration: none;
+                  padding: 5px 20px;
+                  margin: 10px 2px 20px 2px;
+                  border-radius: 3px;
 
 }
 
@@ -31,11 +38,40 @@ colors:
       background-size: cover;
       margin: 30px;
       border: 2px solid #ffd24a;
+      border-radius: 3px;
+      padding: 5px;
       font-family: Helvetica, Arial, sans-serif;
-  }
+        }
 
   #page_content {
 
+  }
 
+  h1, h2, h3, a{
+  color: #1fabe5;
+  }
 
+  thead > tr > td {
+    background-color:#1fabe5;
+    border: 1px solid;
+    border-color: black;
+    color: white;
+  
+
+  }
+
+   table, tr, td {
+    border: 1px solid #1fabe5;
+    border-collapse: collapse;
+    padding: 10px;
+
+  }
+
+  img {
+    height: 40px;
+    width: 40px;
+  }
+
+  section {
+    border-bottom: 5px solid #dddddd;
   }
