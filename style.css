@@ -13,21 +13,11 @@ colors:
     dark blue - #046c97
 */
 
-html {
-background-image:image(bg.png);
-background-size: cover;
 
-
-}
   #site_header{
-                background-color: #ff8523;
-                padding: 30px;
-                margin: 0px ;
-}
-
-  #logo{
-    height: 50px;
-    width: 200px;
+      background-color: #ff8523;
+      padding: 20px 10px 60px 10px;
+      margin: 0px ;
   }
 
 .main_navigation > a {
@@ -35,28 +25,25 @@ background-size: cover;
       border: 1px solid white;
       padding: 5px;
       text-decoration: none;
-      padding: 5px 20px;
-      margin: 10px 2px 0px 2px;
+      padding: 5px 30px;
+      margin: 5px 2px 0px 0px;
       border-radius: 3px;
-}
+  }
 
   body {
       background-image: url("img/bg.jpg");
-      margin: 30px;
+      margin: 10px 50px 10px 50px;
       border: 2px solid #ffd24a;
       border-radius: 3px;
       padding: 0px;
       font-family: Helvetica, Arial, sans-serif;
       font-weight: 300;
-
-        }
+      box-shadow: 2px 2px 2px 2px gray;
+  }
 
   #page_content {
-
     background-color: white;
-    padding: 3px;
-
-
+    padding: 10px;
   }
 
   h1, h2, h3, a{
@@ -76,18 +63,18 @@ background-size: cover;
     padding: 10px;
   }
 
-  img {
+  table > tbody > tr > td > img {
     height: 40px;
     width: 40px;
   }
 
   section {
-    border-bottom: 5px solid #dddddd;
+    border-bottom: 2px solid #dddddd;
     padding-bottom: 30px;
   }
 
   section > form {
-    background-color: #dddddd;
+    background-color: #eeeeee;
     padding: 20px;
     border-radius: 5px;
   }
@@ -95,20 +82,20 @@ background-size: cover;
   .name {
     background-color: #ff8523;
     color: white;
-    padding: 20px;
+    padding: 10px;
     border-radius: 5px;
-    margin: 10px;
+    width: 98%;
   }
+
   #first_name, #last_name {
-    height: 40px;
-    width: 240px;
+    height: 30px;
+    width: 30%;
   }
 
   .city_container {
    margin-top: 30px;
    padding-bottom: 30px ;
   }
-
 
   section > form > div > label, li{
     font-weight: bold;
@@ -128,4 +115,8 @@ background-size: cover;
     height: 50px;
     width: 100px;
     text-transform: uppercase;
+  }
+
+  #city{
+    background-color: white;
   }
